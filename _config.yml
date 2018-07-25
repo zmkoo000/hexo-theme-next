@@ -329,7 +329,7 @@ related_posts:
 
 # Declare license on posts
 post_copyright:
-  enable: true
+  enable: false
   license: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a>
 
 # Post edit
@@ -524,7 +524,7 @@ gitment:
   cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: zmkoo000 # MUST HAVE, Your Github Username
-  github_repo: gitment-comments # MUST HAVE, The name of the repo you use to store Gitment comments
+  github_repo: gitment_comments # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: 9f683d93487bf9b891f1 # MUST HAVE, Github client id for the Gitment
   client_secret: 04dab6885bc7731ed7cd997fcbd7184640dba5df # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
